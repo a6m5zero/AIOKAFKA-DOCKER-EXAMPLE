@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+
+ENV PYTHONUNBUFFERED=1
+
+RUN pip install poetry
+WORKDIR /app
+COPY ./poetry.lock .
+COPY ./pyproject.toml .
+RUN poetry install
+COPY ./consumer/ .
