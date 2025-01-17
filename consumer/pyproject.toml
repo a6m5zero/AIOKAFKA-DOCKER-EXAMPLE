@@ -3,7 +3,7 @@ name = "kafka"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Dmitry Golovin",email = "d.golovin@devl.pro"}
+    {name = "Dmitry Golovin",email = "DSP@DSP.DSP"}
 ]
 requires-python = ">=3.11"
 dependencies = [
